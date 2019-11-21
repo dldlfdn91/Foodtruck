@@ -20,8 +20,7 @@ tools:context="com.ftproject.food_truck.CategoryActivity">
     android:textAppearance="@style/TextAppearance.AppCompat.Display1"
     android:layout_alignParentTop="true"
     android:layout_alignParentLeft="true"
-    android:layout_alignParentStart="true"
-    />
+    android:layout_alignParentStart="true" />
 
 <ImageButton
     android:layout_width="wrap_content"
