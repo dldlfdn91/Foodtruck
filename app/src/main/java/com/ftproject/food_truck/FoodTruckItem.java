@@ -2,10 +2,6 @@ package com.ftproject.food_truck;
 
 import android.media.Image;
 
-/**
- * Created by JeongHwan on 2017-05-13.
- */
-
 public class FoodTruckItem {
     private String mId;
     private String mLat;
