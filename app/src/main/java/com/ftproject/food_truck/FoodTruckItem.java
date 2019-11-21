@@ -10,9 +10,9 @@ public class FoodTruckItem {
     private String mId;
     private String mLat;
     private String mLon;
-    private String mHp; // 전화번호
-    private Image truck; // 트럭 이미지
-    private FoodTruckMenu menu; //트럭 메뉴
+    private String mHp;
+    private Image truck;
+    private FoodTruckMenu menu;
 
     public void setmId(String mId) {
         this.mId = mId;
