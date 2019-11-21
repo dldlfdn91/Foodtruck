@@ -11,10 +11,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-/**
- * Created by JeongHwan on 2017-05-27.
- */
-
 public class GridViewAdapter extends BaseAdapter {
 
     Context context;
@@ -61,11 +57,11 @@ public class GridViewAdapter extends BaseAdapter {
         TextView txtPrice =(TextView)convertView.findViewById(R.id.textView02);
 
         GridViewItem gvi= list.get(position);
-       // imgIcon.setImageResource(gvi.getImgPhoto()); //이미지 설정.
+
         Picasso .with(context)
                 .load(gvi.getImgURL())
                 .into(imgIcon);
-        //imgIcon.setImageBitmap()
+
         txtName.setText(gvi.getName());
         txtPrice.setText(gvi.getPrice());
 
